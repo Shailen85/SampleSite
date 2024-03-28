@@ -6,7 +6,7 @@ body {
   .cover::before{
     position: absolute;
     inset: 0;
-    background-image: url("../Photos/bins/wbmcover.jpg)";
+    background-image: url("../Photos/bins/wbmcover.jpg");
     background-position: center;
     background-size: cover;
     opacity: 1;
