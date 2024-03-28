@@ -41,7 +41,7 @@ body {
   .info::before{
     position: absolute;
     inset: 0;
-    background-image: url(/Photos/bins/multibin.jpg);
+    background-image: url("../Photos/bins/multibin.jpg");
     background-position: center;
     background-size:cover;
     opacity: .1;
