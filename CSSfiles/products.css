@@ -152,7 +152,7 @@ nav a:hover {
   padding: 0%;
   width: 250px;
   height: 70px;
-  background-image: url("/Photos/logos2.png");
+  background-image: url("../Photos/logos2.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 38%;
@@ -161,7 +161,7 @@ nav a:hover {
 .logo1{
   display: none;
   height: 70px;
-  background-image: url("/Photos/logos2.png");
+  background-image: url("../Photos/logos2.png");
   background-repeat: no-repeat;
   background-position-y: 45%;
   background-size: 75%;
