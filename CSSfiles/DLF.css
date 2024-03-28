@@ -1,0 +1,516 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+/* ---------------------Heading----------------------- */
+.cover{
+  img{
+    width: 100%;
+    height: 700px;
+  }
+  #head{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 50%;
+    margin-top: 14%;
+    margin-left: 84%;
+    strong{
+      font-size: 140%;
+    }
+  }
+  #body{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    width: 15%;
+    float: right;
+    margin-top: 18%;
+    margin-left: 81%;
+    text-align: center;
+    font-size: xx-small;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cover{
+    img{
+      height: 350px;
+    }
+    #head{
+      font-size: 10%;
+      margin-top: 28%;
+      margin-left: 75%;
+      strong{
+        font-size: 50%;
+      }
+    }
+    #body{
+      width: 30%;
+      float: right;
+      margin-top: 38%;
+      margin-left: 70%;
+      text-align: center;
+      font-size: 20%;
+    }
+  }
+}
+
+/* -----------------------Body------------------------ */
+.income{
+  img{
+    width: 100%;
+    height: 300px;
+  }
+  h1{
+    position: absolute;
+    color:rgb(245, 168, 68);
+    margin-left: 43%;
+  }
+  p{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    font-size: small;
+
+  }
+}
+.ladylist{
+  color: rgb(253, 157, 205);
+  img{
+    width: 100%;
+    height: 400px;
+  }
+  h2{
+    position: absolute;
+    margin-left: 22%;
+    text-align: center;
+  }
+  h3{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 320px;
+    text-align: center;
+  }
+  #table1 table{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 10%;
+    position: absolute;
+    font-size: xx-small;
+    text-align: center;
+  }
+  #table2 table{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 28%;
+    position: absolute;
+    font-size: xx-small;
+    text-align: center;
+  }
+} 
+.menlist{
+  color: rgb(185, 240, 250);
+  img{
+    width: 100%;
+    height: 400px;
+  }
+  h2{
+    position: absolute;
+    margin-left: 74%;
+    text-align: center;
+  }
+  h3{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 320px;
+    text-align: center;
+  }
+  #table1 table{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 62%;
+    position: absolute;
+    font-size: xx-small;
+    text-align: center;
+  }
+  #table2 table{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 80%;
+    position: absolute;
+    font-size: xx-small;
+    text-align: center;
+  } 
+}
+.about{
+  img{
+    width: 100%;
+    height: 600px;
+    opacity: 0.2;
+  }
+  h1{
+    position: absolute;
+    color:rgb(245, 168, 68);
+    margin-left: 43%;
+  }
+  p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    position: absolute;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    font-size: small;
+
+  }
+  .caterlog{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 35%;
+    width: 50%;
+    display: flex; 
+    img{
+      opacity: 1;
+    }
+    a{
+      text-align: center;
+      color:rgb(245, 168, 68);
+      position: absolute;
+      margin-top: 20%;
+    }
+    .aboutkit{
+      a{
+        margin-left: 4%;
+      }
+      img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .aboutladies{
+      margin-left: 5%;
+      a{
+        margin-left: -1%;
+      }
+      img{
+        height: 150px;
+      }
+    }
+    .aboutmen{
+      margin-left: 5%;
+      a{
+        margin-left:1%;
+      }
+      img{
+        height: 150px;
+      }
+    }
+   
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .income{
+    img{
+      height: 300px;
+    }
+    h1{
+      margin-left: 33%;
+      font-size: 80%;
+    }
+    p{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 10%;
+      text-align: center;
+      font-size: 50%;
+    }
+  }
+  .ladylist{
+    color: rgb(253, 157, 205);
+    img{
+      height: 350px;
+    }
+    h2{
+      font-size: 80%;
+    }
+    h3{
+      margin-left: 20%;
+      margin-top: 80%;
+      font-size: 90%;
+    }
+    #table1 table{
+      width: 25%;
+      margin-top: 12%;
+      margin-left: 1%;
+      font-size: 40%;
+    }
+    #table2 table{
+      width: 25%;
+      margin-top: 12%;
+      margin-left: 30%;
+      font-size: 40%;
+    }
+  }
+  .menlist{
+    img{
+      height: 350px;
+    }
+    h2{
+      margin-left: 60%;
+      font-size: 80%;
+    }
+    h3{
+      margin-left: 17%;
+      margin-top: 10%;
+      font-size: 90%;
+    }
+    #table1 table{
+      width: 25%;
+      margin-top: 13%;
+      margin-left: 45%;
+      font-size: 40%;
+    }
+    #table2 table{
+      width: 25%;
+      margin-top: 13%;
+      margin-left: 75%;
+      font-size: 40%;
+    } 
+  }
+  .about{
+    img{
+      height: 600px;
+    }
+    h1{
+      font-size: 80%;
+    }
+    p{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 10%;
+      font-size: 50%;
+    }
+    .caterlog{
+      margin-top: 110%;
+      width: 80%;
+      height: 10%;
+      flex-direction:row;
+      margin-left: 15%;
+      a{
+        margin-top: 35%;
+        font-size: 50%;
+      }
+      .aboutkit{
+        a{
+          margin-left: 8%;
+        }
+        img{
+          width: 80px;
+          height: 90px;
+        }
+      }
+      .aboutladies{
+        a{
+          margin-left: 2%;
+        }
+        img{
+          width: 60px;
+          height: 90px;
+        }
+      }
+      .aboutmen{
+        a{
+          margin-left: 2%;
+        }
+        img{
+          width: 50px;
+          height: 80px;
+        }
+      }
+    }
+  }
+}
+
+/* ----------------------------INFO--------------------------- */
+.social-links{
+  height: 500px;
+  background-image: url(/Photos/cover2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
+  .contact-links{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    h3{
+      width: 70%;
+      border-bottom: solid 1px;
+    }
+    a{
+      color: black;
+      text-decoration: none;
+      margin-top: 2%;
+      padding: 2%;
+      font-size: 80%;
+    }
+    :hover{
+      color:rgb(177, 106, 0);
+    }
+  }
+  .advert-links{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    margin-left: 70%;
+    margin-top: -230px;
+    h3{
+      width: 70%;
+      border-bottom: solid 1px;
+    }
+    a{
+      color: black;
+      text-decoration: none;
+      margin-top: 2%;
+      padding: 3%;
+      font-size: 60%;  
+    }
+    :hover{
+      color: rgb(177, 106, 0);
+    }
+    #load1{
+      border-bottom: 1px solid;
+      padding-top: 1px;
+      padding-bottom: 5px;
+      text-align: left;
+      background-image: url("/Photos/Perfume/Brochure1.png");
+      background-repeat: no-repeat;
+      background-size: 20%;
+      background-position: 80% 40%;
+    }
+    #load2{
+      border-bottom: 1px solid;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      text-align: left;
+      background-image: url("/Photos/Perfume/order.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: 80% 70%;
+      margin-top: 10%;
+    }
+  }
+}
+.terms{
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  color: whitesmoke;
+  margin-top: 5%;
+  width: 100%;
+  height: 15%;
+  background-color: rgba(44, 44, 44, 0.527);
+  img{
+    position:absolute ;
+    width: 8%;
+    height: 8%;
+    margin-left: 10%;
+  }
+  p{
+    margin-left: 20%;
+    padding-top: 8px;
+    width: 10%;
+  }
+  .social-icons{
+    margin-top: -50px;
+    background-color: rgba(44, 44, 44, 0);
+    width: 30%;
+    text-align: center;
+    margin-left:30%;
+    padding-top: 15px;
+    i{
+      color: whitesmoke;
+      margin-right: 6%;
+    }
+    :hover{
+      color: rgb(177, 106, 0);
+    }
+  }
+  footer{
+    width: 40%;
+    float: right;
+    margin-top: -2%;
+    p{
+      width: 70%;
+      font-size: xx-small;
+      a{
+        color: rgb(190, 188, 188);
+        text-decoration: none;
+      }
+    }
+    
+  }
+}
+
+@media screen and (max-width: 600px){
+  .social-links{
+    height: 250px;
+    font-size: 45%;
+    .contact-links{
+      margin-left: 1%;
+      width: 30%;
+    }
+    .advert-links{
+      margin-left: 60%;
+      width: 30%;
+      margin-top: -90px;
+      #load1{
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      #load2{
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+    }
+  }
+  .terms{
+    height: 25%;
+    img{
+      width: 12%;
+      height: 6%;
+      margin-left: 5%;
+    }
+    p{
+      width: 20%;
+      font-size: 35%;
+      margin-left: 20%;
+      margin-top: 3%;
+    }
+    .social-icons{
+      width: 60%;
+      margin-top: -7%;
+      margin-left: 35%;
+      i{
+        margin-right: 10%;
+      }
+    }
+    footer{
+      margin-top: 2%;
+      margin-left: 0%;
+      width: 98%;
+      p{
+        width: 50%;
+        font-size: 4px;
+      }
+    }
+  }
+}
