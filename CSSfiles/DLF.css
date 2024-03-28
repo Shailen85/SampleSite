@@ -342,7 +342,7 @@ body {
 /* ----------------------------INFO--------------------------- */
 .social-links{
   height: 500px;
-  background-image: url(/Photos/cover2.jpg);
+  background-image: url("../Photos/cover2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: black;
