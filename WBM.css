@@ -6,7 +6,7 @@ body {
   .cover::before{
     position: absolute;
     inset: 0;
-    background-image: url(/Photos/bins/wbmcover.jpg);
+    background-image: url("../Photos/bins/wbmcover.jpg)";
     background-position: center;
     background-size: cover;
     opacity: 1;
@@ -41,7 +41,7 @@ body {
   .info::before{
     position: absolute;
     inset: 0;
-    background-image: url(/Photos/bins/multibin.jpg);
+    background-image: url("../Photos/bins/multibin.jpg");
     background-position: center;
     background-size:cover;
     opacity: .1;
@@ -85,7 +85,7 @@ body {
   
   /* ------------------------Products-------------------------------------- */
   .products{
-    background-image: url(/Photos/bins/lots4.jpg);
+    background-image: url("../Photos/bins/lots4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -309,7 +309,7 @@ body {
     color: rgba(27, 27, 27, 0.705);
     height: 500px;
     margin-top: 1%;
-    background-image: url(/Photos/bins/footer1.jpg);
+    background-image: url("../Photos/bins/footer1.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ body {
       #load1{
         padding-top: 5px;
         padding-bottom: 10px;
-        background-image: url("/Photos/bins/WBM brocher.png");
+        background-image: url("../Photos/bins/WBM brocher.png");
         background-repeat: no-repeat;
         background-size: 30%;
         background-position: 100% 60%;
